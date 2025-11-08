@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veterinaria Patitas Felices</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./imagen-veterinaria/salud.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#"> Patitas Felices</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#horarios">Horarios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Tu mascota merece lo mejor </h1>
+      <p class="lead mb-4">Cuidamos a tus mejores amigos con amor, tecnología y profesionalismo.</p>
+      <a href="#contacto" class="btn btn-success btn-lg shadow">Agenda una cita</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4 fw-bold">Nuestros Servicios</h2>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="zoom-in">
+          <i class="bi bi-heart-pulse"></i>
+          <h4>Consultas Médicas</h4>
+          <p>Atención general, vacunas y desparasitación.</p>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="150">
+          <i class="bi bi-scissors"></i>
+          <h4>Peluquería</h4>
+          <p>Baños, cortes de pelo y estética para tu mascota.</p>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <i class="bi bi-house-heart"></i>
+          <h4>Guardería</h4>
+          <p>Un lugar seguro y divertido mientras tú trabajas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo -->
+  <section id="equipo" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4 fw-bold">Conoce a Nuestro Equipo</h2>
+      <div class="row">
+        <div class="col-md-4" data-aos="fade-up">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-3 shadow" width="120">
+          <h5>Dra. Laura Gómez</h5>
+          <p>Veterinaria especialista en pequeños animales.</p>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-3 shadow" width="120">
+          <h5>Dr. Carlos Pérez</h5>
+          <p>Cirujano veterinario con 10 años de experiencia.</p>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <img src="https://randomuser.me/api/portraits/women/65.jpg" class="rounded-circle mb-3 shadow" width="120">
+          <h5>María Torres</h5>
+          <p>Estilista canina y experta en comportamiento animal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horarios -->
+  <section id="horarios" class="horarios text-center">
+    <div class="container" data-aos="fade-up">
+      <h2 class="mb-4 fw-bold"><i class="bi bi-clock-history"></i> Horarios de Atención</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+          <table class="table align-middle">
+            <thead>
+              <tr><th>Día</th><th>Horario</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Lunes - Viernes</td><td>8:00 AM - 8:00 PM</td></tr>
+              <tr><td>Sábado</td><td>9:00 AM - 4:00 PM</td></tr>
+              <tr><td>Domingo</td><td>Cerrado</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergencias -->
+  <section id="emergencia" class="emergencia">
+    <div class="container" data-aos="zoom-in">
+      <h2>🚨 Servicio de Emergencia 24 Horas</h2>
+      <p class="lead">Disponibles día y noche para cuidar de tu mascota cuando más lo necesite.</p>
+      <h3><i class="bi bi-telephone-forward"></i> Llámanos: <strong>+34 600 123 456</strong></h3>
+      <a href="https://wa.me/34600123456?text=Hola!%20Tengo%20una%20emergencia%20con%20mi%20mascota!" class="btn btn-light mt-3" target="_blank">
+        <i class="bi bi-whatsapp"></i> Contactar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-5 text-center">
+    <div class="container" data-aos="fade-up">
+      <h2 class="mb-4 fw-bold">Contáctanos</h2>
+      <form class="row g-3 justify-content-center">
+        <div class="col-md-5">
+          <input type="text" class="form-control" placeholder="Tu nombre" required>
+        </div>
+        <div class="col-md-5">
+          <input type="email" class="form-control" placeholder="Tu correo" required>
+        </div>
+        <div class="col-md-10">
+          <textarea class="form-control" rows="4" placeholder="Tu mensaje" required></textarea>
+        </div>
+        <div class="col-md-10">
+          <button type="submit" class="btn btn-success w-100">Enviar mensaje</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Veterinaria Patitas Felices | Emergencias 24h 📞 +34 600 123 456</p>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+<a class="whatsapp-float" href="https://wa.me/573042367889?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20sus%20perfumes" target="_blank">
+  <img src="imagen-veterinaria/whatsap.png" alt="WhatsApp">
+</a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
